@@ -1,0 +1,30 @@
+$link-color: #205eb0
+$blue-color: #0c4592
+$dark-color: #333
+$white-color: #fff
+$yellow-color: #f2c94c
+$gray-color: #bdbdbd
+$text-gray-color: #4f4f4f
+$smooth-color: #828282
+$row-width: emCalc(1210)
+
+
+
+
+@mixin reset-list
+	margin: 0
+	padding: 0
+	li
+		list-style: none
+
+@mixin beforeAfterBg 
+	content: ""
+	display: block
+	position: absolute
+@mixin zeroFont 
+	font-size: 0
+	line-height: 0
+@mixin linkDec
+	text-decoration: none
+	&:hover
+		text-decoration: underline
